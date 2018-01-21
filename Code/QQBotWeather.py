@@ -31,3 +31,6 @@ def GetWeather(bot, contact, member, content, city):
     else:
         bot.SendTo(contact, '查个毛，只能查国内城市！')
 
+'''
+此处的代码参考了CSDN博主 双木已成林 的代码，原文地址为：http://blog.csdn.net/Seanlinsea/article/details/78391614
+'''
